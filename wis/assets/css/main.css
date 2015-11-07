@@ -1148,7 +1148,7 @@
 		border-top: solid 1px #dddddd;
 		height: 1px;
 		margin: 2em 0 2em 0;
-	}
+	}*
 
 	p, ul, ol, dl, table {
 		margin-bottom: 2em;
@@ -1437,7 +1437,7 @@
 
 	ul.dates li {
 		position: relative;
-		border-top: solid 1px #ddd;
+		border-top: none;
 		padding: 1.3em 0 1.3em 6.75em;
 	}
 
