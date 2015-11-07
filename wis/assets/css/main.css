@@ -2557,8 +2557,9 @@
 }
 
 #jspic {
-	width: 50%;
+	width: 45%;
 	margin-bottom: 20px;
+	margin-top: -10px;
 }
 
 ul > li {
@@ -2566,5 +2567,5 @@ ul > li {
 }
 
 #jsheader {
-	padding-top: 10px;
+
 }
