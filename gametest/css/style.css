@@ -1,0 +1,10 @@
+body {
+  text-align: center;
+}
+
+button {
+  background-color: green;
+  font-size: 40px;
+  font-family: Impact;
+  border: 2px solid black;
+}
