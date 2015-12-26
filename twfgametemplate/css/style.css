@@ -1,0 +1,303 @@
+/*Google Fonts*/
+@import url(https://fonts.googleapis.com/css?family=Luckiest+Guy);
+@import url(https://fonts.googleapis.com/css?family=Bitter);
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+
+
+/*SPLASH PAGE*/
+
+body {
+  font-family: "Bitter";
+   background-image: url("http://www.3dwallpaperstudio.com/wallpapers/blue_puzzle-2560x1440.jpg");
+  text-align: center;
+}
+
+
+h1 {
+  font-family: "Luckiest Guy";
+  font-size: 50px;
+}
+
+/*game creator*/
+.author {
+  font-family: "Bitter";
+  font-size: 26px;
+}
+
+#instructiontitle {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Rokkitt";
+}
+
+.splashpagewrapper {
+  background: #fff;
+  padding: 10px;
+  margin: auto;
+  width: 700px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 8px solid;
+}
+
+.instructionbox {
+ margin-bottom: 20px;  
+}
+
+/*The logo image*/
+#gamelogo {
+  display: block;
+  margin: auto;
+  width: 20%;
+}
+
+/*The div around the game instructions*/
+.instructionbox {
+  border: 3px solid #000;
+  margin: 10px;
+  padding: 10px;
+}
+
+/*The "Play" button to start the game*/
+#playbutton {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+  font-family: "Press Start 2P";
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+  border: 3px dotted #000000;
+}
+
+#playbutton:hover {
+  background: red;
+  border: 3px solid #000000;
+}
+
+/* unvisited link */
+a:link {
+    color: #000099;
+}
+
+/* visited link */
+a:visited {
+    color: #000099;
+}
+
+/* mouse-over link */
+a:hover {
+    color: #e60000;
+}
+
+
+/*THE GAME ITSELF*/
+
+/*This is the div surrounding the entire game*/
+.allgamelevels {
+  font-family: "Luckiest Guy";
+  text-align: center;
+}
+
+/*The badges you win for each level*/
+.badges {
+  display: inline-block;
+  padding: 5px;
+}
+
+#badge {
+  width: 15%;
+}
+
+#badge2 {
+  width: 20%;
+  margin-bottom: 5px;
+}
+
+#badge3 {
+  width: 15%;
+}
+
+#badge4 {
+  width: 15%;
+}
+
+/*The div around each level*/
+.wrapper {
+  border: 2px solid #000;
+  box-shadow: 5px 5px 3px 3px #999999;
+  width: 700px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background: #fff;
+}
+
+#points {
+  font-size: 30px;
+}
+
+/*The div for the score counter*/
+.scorebox {
+  border: 2px solid #000;
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: 30%;
+  box-shadow: 5px 5px 5px #999999;
+}
+
+h2 {
+  background: #3399ff;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 20px;
+  margin-bottom: -20px;
+  text-transform: uppercase; 
+}
+
+h3 {
+  font-size: 24px;
+  font-family: "Bitter";
+}
+
+h4 {
+  background: #ff4d4d;
+  width: 70%;
+  margin: auto;
+  border-radius: 3px;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+h5 {
+  font-size: 22px;
+  font-weight: 100;
+}
+
+/*The styling for the buttons in Level 1*/
+.answerbutton {
+  display: inline-block;
+  padding: 5px;
+  padding-top: 10px;
+  border: solid 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50px;
+  margin: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  box-shadow: 3px 3px 3px #999;
+}
+
+.answerbutton:hover {
+  background: #80ccff;
+}
+
+/*The smiley image in Level 1*/
+#thinking {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 20%;
+}
+
+/*The drag and drop images in Level 2*/
+#rabbit {
+  width: 20%;
+  display: block;
+  margin: auto;
+}
+
+.food {
+  display: inline-block;
+  width: 10%;
+  margin: 10px;
+  cursor: move;
+  margin-bottom: 20px;
+}
+
+/*The text input field in Level 3*/
+input[type="text"] {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px; 
+  border: solid 2px #000;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+/*The effect that happens when you click the text input field*/
+input[type="text"]:focus {
+  outline: none;
+  border: solid 2px #000;
+  box-shadow: 0 0 5px 3px #969696;
+}
+
+/*The different answers in Level 3*/
+.level3answers {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  font-size: 26px;
+  font-family: "Bitter";
+}
+/*The smiley image in Level 3*/
+#confused {
+  display: block;
+  margin: auto;
+  width: 20%;
+}
+
+/*The "submit" button used in Level 3*/
+.submit {
+  background: #fff;
+  border-radius: 5px;
+  border: 2px solid;
+  margin-bottom: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px #999;
+  font-family: "Bitter";
+}
+
+.submit:hover{
+ background: #80ccff;
+}
+
+/*Images in Level 4*/
+.questionblock {
+  display: inline-block;
+  padding: 5px;
+  cursor: pointer;
+  width: 20%;
+}
+
+.find {
+  width: 20%;
+  padding: 20px;
+  display: inline-block;
+  
+}
+.mushroom {
+  padding-bottom: 40px;
+}
+
+.goomba {
+ width: 14%;
+ padding-bottom: 50px;
+ margin-right: 25px;
+}
+
+.greenmushroom {
+  width: 13%;
+  padding-bottom: 55px;
+  margin-right: 25px;
+}
+
