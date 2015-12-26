@@ -93,8 +93,8 @@ $("#block2").click(function(){
   $(".flower").toggle();
   alert("Yes! You found it!");
   $("#points").hide();
-  alert("You have earned the Medal of Fulfillment.");
   $("#badge4").show();
+  alert("You have earned the Medal of Fulfillment.");
   alert("Congratulations! You have passed the game!")
 });
 
