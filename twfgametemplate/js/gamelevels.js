@@ -19,7 +19,7 @@ var answer3 = document.getElementById("answer3");
 
   answer1.onclick = function(){
         alert("Correct!");
-        $("#points").hide();
+        $("#points").empty();
         alert("You have earned the Medal of Wisdom.");
         $("#badge").show();
         $( "#level1box" ).fadeOut("slow");
@@ -45,7 +45,6 @@ $( ".food" ).draggable({revert: "invalid", containment: "parent"});
         if(ui.draggable.is("#carrot")) {
           $(ui.draggable).remove();
           alert("Correct!");
-          $("#points").hide();
           alert("You have earned the Medal of Charity.");
           $("#badge2").show();
           $( "#level2box" ).fadeOut("slow");
@@ -65,7 +64,6 @@ $(".submit").click (function(){
 var question3 = document.getElementById("textfield").value.toLowerCase();
 if (question3 === "greed") {
   alert("Correct!");
-  $("#points").hide();
   alert("You have earned the Medal of Courage.");
   $("#badge3").show();
   $( "#level3box" ).fadeOut("slow");
@@ -91,7 +89,6 @@ $("#block1").click(function(){
 
 $("#block2").click(function(){
   $(".flower").toggle();
-  $("#points").hide();
   alert("Yes! You found it!");
   $("#badge4").show();
   alert("You have earned the Medal of Fulfillment.");
