@@ -1,9 +1,5 @@
-//function game (){
-
 $(document).ready(function() {
   $("body").css("background-image", "none");
-
-
 
 
 //These hide all the levels at the start
