@@ -28,6 +28,7 @@
 
 	ol, ul {
 		list-style: none;
+		
 	}
 
 	blockquote, q {
@@ -1132,6 +1133,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #3e3e3e;
+
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1141,6 +1143,7 @@
 
 	h2, h3, h4, h5, h6 {
 		font-weight: 700;
+
 	}
 
 	h1 {
@@ -1556,6 +1559,7 @@
 		background: #fff;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		text-align: center;
+		min-height: 473px;
 	}
 
 /* Icons */
@@ -1581,7 +1585,7 @@
 		}
 
 		.icon.featured {
-			color: #43B3E0;
+			color:  #3366cc;
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
@@ -1705,7 +1709,7 @@
 
 	#copyright {
 		color: #666;
-		margin-left: 20px;
+		text-align: center;
 	}
 
 		#copyright a {
@@ -1758,6 +1762,10 @@
 					margin: 0;
 				}
 
+				header > h2 {
+					margin-top: -5%;
+				}
+
 			footer {
 				margin: 3em 0 0 0;
 			}
@@ -1794,6 +1802,7 @@
 				.button.big {
 					font-size: 1.5em;
 					letter-spacing: -0.025em;
+					margin-bottom: -5%;
 				}
 
 		/* Box */
@@ -1804,6 +1813,7 @@
 
 				.box.style1 {
 					padding: 3em 2em 3.5em 2em;
+					min-height: 500px;
 				}
 
 					.box.style1 h3 {
@@ -1820,6 +1830,10 @@
 					top: 2em;
 					margin: -4em 0 4em -4em;
 					width: auto;
+				}
+
+				.box.style1 > ul {
+					text-align: left;
 				}
 
 		/* Wrappers */
@@ -2098,16 +2112,12 @@
 			#copyright {
 				font-size: 1em;
 				margin: 0;
+				
 			}
 
 				#copyright li {
 					display: block;
+					
 				}
 
 	}
-
-/*Additional modifications*/
-
-.resourcelist {
-	text-align: left;
-}
