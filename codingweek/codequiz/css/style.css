@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Luckiest+Guy);
+@import url(https://fonts.googleapis.com/css?family=Bitter);
+
+/*This is the div surrounding the entire game*/
+.allgamelevels {
+  font-family: "Luckiest Guy";
+  text-align: center;
+}
+
+
+/*The div around each level*/
+.wrapper {
+  border: 2px solid #000;
+  box-shadow: 5px 5px 3px 3px #999999;
+  width: 700px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background: #fff;
+}
+
+#points {
+  font-size: 30px;
+}
+
+/*The div for the score counter*/
+.scorebox {
+  border: 2px solid #000;
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: 30%;
+  box-shadow: 5px 5px 5px #999999;
+}
+
+h2 {
+  background: #3399ff;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 20px;
+  margin-bottom: -20px;
+  text-transform: uppercase; 
+}
+
+h3 {
+  font-size: 24px;
+  font-family: "Bitter";
+}
+
+h4 {
+  background: #ff4d4d;
+  width: 70%;
+  margin: auto;
+  border-radius: 3px;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+h5 {
+  font-size: 22px;
+  font-weight: 100;
+}
+
+/*The styling for the buttons in Level 1*/
+.answerbutton {
+  display: inline-block;
+  padding: 5px;
+  padding-top: 10px;
+  border: solid 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  box-shadow: 3px 3px 3px #999;
+}
+
+.answerbutton:hover {
+  background: #80ccff;
+}
+
+/*The smiley image in Level 1*/
+#thinking {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 20%;
+}
