@@ -5,6 +5,7 @@
 
 body {
 	font-family: "Press Start 2P";
+	text-align: center;
 }
 
 /*top header text - set margin to 0 to avoid text being cut off on mobile*/
@@ -25,9 +26,9 @@ body {
 	width: 40%;
 }
 
-[data-role] > p  {
+/*[data-role] > p  {
 	text-align: center;
-}
+}*/
 
 /*div with the groupe buttons on title screen*/
 .ui-controlgroup-controls {
@@ -47,6 +48,32 @@ body {
 	background-image: url('http://orig05.deviantart.net/e25b/f/2014/308/3/c/pokemon_x_and_y_battle_background_16_by_phoenixoflight92-d8594wx.png');
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 100vh;
+}
+
+.pokemon-wrapper {
+	border: 1px solid pink;
+/*	position: relative;*/
+}
+
+.enemy-wrapper, .user-pokemon-wrapper {
+ border: 1px solid red;
+ width: 50%;
+ /*position: absolute;*/
+}
+
+.enemy-wrapper {
+float: right;
+}
+
+.user-pokemon-wrapper {
+	margin-top: 20%;
+}
+
+.sprites {
+	width: 100px;
+}
+
+#squirtle {
+	width: 150px;
 }
 
