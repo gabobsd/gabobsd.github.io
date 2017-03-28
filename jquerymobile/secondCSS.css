@@ -12,7 +12,6 @@ body {
 .ui-header .ui-title {
 	/*	font-size: 24px;*/
 	margin: 0;
-	white-space: normal;
 	font-family: "Press Start 2P";
 }
 
@@ -50,6 +49,10 @@ body {
 }
 
 /*GAME PLAY PAGE*/
+
+#Pokemon-title {
+white-space: normal;
+}
 
 /*background image to the content on gameplay page*/
 .game-background {
