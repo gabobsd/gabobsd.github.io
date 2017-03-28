@@ -52,6 +52,7 @@ body {
 
 .pokemon-wrapper {
 	border: 1px solid pink;
+	margin-top: 5%;
 /*	position: relative;*/
 }
 
