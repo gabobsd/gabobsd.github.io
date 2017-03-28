@@ -52,14 +52,12 @@ body {
 
 .pokemon-wrapper {
 	border: 1px solid pink;
-	margin-top: 5%;
-/*	position: relative;*/
+	margin-top: 10%;
 }
 
 .enemy-wrapper, .user-pokemon-wrapper {
  border: 1px solid red;
  width: 50%;
- /*position: absolute;*/
 }
 
 .enemy-wrapper {
