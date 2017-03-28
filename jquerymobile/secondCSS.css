@@ -40,7 +40,15 @@ body {
 	font-size: 20px;
 }
 
-/*text in the footer*/
-/*.footer-copyright {
-	font-size: 10px;
-}*/
+/*GAME PLAY PAGE*/
+
+/*background image to the content on gameplay page*/
+.game-background {
+	background-image: url('http://i.imgur.com/Dnd9gLk.png');
+	background-size: cover;
+	height: 100vh;
+}
+
+#game-text {
+	text-align: center;
+}
