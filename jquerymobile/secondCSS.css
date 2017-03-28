@@ -66,12 +66,16 @@ float: right;
 }
 
 .user-pokemon-wrapper {
-	margin-top: 20%;
+	margin-top: 15%;
 }
 
 progress {
 	display: block;
 	margin: 0 auto;
+}
+
+.attacks-wrapper {
+	border: 1px solid orange;
 }
 
 .sprites {
