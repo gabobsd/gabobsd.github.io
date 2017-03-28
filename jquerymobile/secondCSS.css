@@ -51,7 +51,7 @@ body {
 /*GAME PLAY PAGE*/
 
 #pokemon-title {
- white-space: normal;
+ white-space: normal !important;
 }
 
 /*background image to the content on gameplay page*/
