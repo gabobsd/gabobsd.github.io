@@ -29,13 +29,18 @@ body {
 	text-align: center;
 }
 
-/*button text on title screen*/
+/*div with the groupe buttons on title screen*/
+.ui-controlgroup-controls {
+    margin: 20px auto;
+}
+
+/*buttons on title screen*/
 .ui-controlgroup-controls > a {
 	font-family: "Play";
 	font-size: 20px;
 }
 
 /*text in the footer*/
-.footer-copyright {
+/*.footer-copyright {
 	font-size: 10px;
-}
+}*/
