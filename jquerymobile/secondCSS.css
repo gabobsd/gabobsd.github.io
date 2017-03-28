@@ -9,7 +9,8 @@ body {
 
 /*top header text*/
 .ui-header .ui-title {
-	font-size: 30px;
+	font-size: 26px;
+	margin: 0;
 }
 
 /*div containing the img on title screen*/
