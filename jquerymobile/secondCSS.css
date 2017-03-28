@@ -10,13 +10,14 @@ body {
 
 /*top header text - set margin to 0 to avoid text being cut off on mobile*/
 .ui-header .ui-title {
-	font-size: 24px;
-	margin: 0;
+	/*	font-size: 24px;*/
+	/*	margin: 0;*/
 	font-family: "Press Start 2P";
 }
 
+/*footer text*/
 .ui-footer .ui-title {
-   font-family: "Press Start 2P";
+	font-family: "Press Start 2P";
 }
 
 /*div containing the img on title screen*/
@@ -33,7 +34,7 @@ body {
 
 /*div with the grouped buttons on title screen*/
 .ui-controlgroup-controls {
-    margin: 20px auto;
+	margin: 20px auto;
 }
 
 /*buttons on title screen*/
@@ -51,37 +52,50 @@ body {
 	background-repeat: no-repeat;
 }
 
+/*paragraph above Pokemon*/
+#game-text {
+	font-family: "Press Start 2P";
+}
+
+/*outer div that wraps around the divs that contain the user and enemy*/
 .pokemon-wrapper {
 	border: 1px solid pink;
 	margin-top: 10%;
 }
 
+/*both divs for enemy Pokemon and player*/
 .enemy-wrapper, .user-pokemon-wrapper {
- border: 1px solid red;
- width: 50%;
+	border: 1px solid red;
+	width: 50%;
 }
 
+/*div with enemy Pokemon*/
 .enemy-wrapper {
-float: right;
+	float: right;
 }
 
+/*div with user Pokemon*/
 .user-pokemon-wrapper {
 	margin-top: 15%;
 }
 
+/*progress bars*/
 progress {
 	display: block;
 	margin: 0 auto;
 }
 
+/*div with buttons for attacks*/
 .attacks-wrapper {
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
 }
 
+/*Pokemon gifs*/
 .sprites {
 	width: 100px;
 }
 
+/*Squirtle img*/
 #squirtle {
 	width: 125px;
 }
