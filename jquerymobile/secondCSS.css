@@ -10,9 +10,9 @@ body {
 
 /*top header text - set margin to 0 to avoid text being cut off on mobile*/
 .ui-header .ui-title {
-	/*	font-size: 24px;*/
-	margin: 0;
+	font-size: 22px;
 	font-family: "Press Start 2P";
+	white-space: normal;
 }
 
 .titleScreen-text {
@@ -48,11 +48,14 @@ body {
 	font-size: 20px;
 }
 
-/*POKEMON GAME PAGE*/
 
-h1#pokemon-title{
- white-space: normal !important;
+/*INSTRUCTIONS PAGE*/
+
+#instructions-title {
+	margin: 0;
 }
+
+/*POKEMON GAME PAGE*/
 
 /*background image to the content on gameplay page*/
 .game-background {
