@@ -44,8 +44,9 @@ body {
 
 /*background image to the content on gameplay page*/
 .game-background {
-	background-image: url('http://i.imgur.com/Dnd9gLk.png');
+	background-image: url('http://orig05.deviantart.net/e25b/f/2014/308/3/c/pokemon_x_and_y_battle_background_16_by_phoenixoflight92-d8594wx.png');
 	background-size: cover;
+	background-repeat: no-repeat;
 	height: 100vh;
 }
 
