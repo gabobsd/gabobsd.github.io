@@ -50,7 +50,7 @@ body {
 
 /*GAME PLAY PAGE*/
 
-#pokemon-title {
+#pokemon-title .ui-header .ui-title {
  white-space: normal !important;
 }
 
