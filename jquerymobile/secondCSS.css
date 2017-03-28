@@ -4,7 +4,7 @@
 
 
 body {
-	font-family: "Press Start 2P";
+	font-family: "Play";
 	text-align: center;
 }
 
@@ -12,6 +12,11 @@ body {
 .ui-header .ui-title {
 	font-size: 24px;
 	margin: 0;
+	font-family: "Press Start 2P";
+}
+
+.ui-footer .ui-title {
+   font-family: "Press Start 2P";
 }
 
 /*div containing the img on title screen*/
@@ -26,11 +31,7 @@ body {
 	width: 40%;
 }
 
-/*[data-role] > p  {
-	text-align: center;
-}*/
-
-/*div with the groupe buttons on title screen*/
+/*div with the grouped buttons on title screen*/
 .ui-controlgroup-controls {
     margin: 20px auto;
 }

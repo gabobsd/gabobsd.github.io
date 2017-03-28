@@ -1,72 +1,86 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-    <link rel="stylesheet" href="secondCSS.css">
-    <link rel="icon" type="image/png" href="http://pokemonrpg.nl/favicon.png">
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-</head>
-<body>
-   <!-- Title Screen page-->
-   <!-- data-role = 'page' is needed whenever you want to make a separate page, all separate pages are contained inside a separate div on index.html instead of a separate file-->
-   <div data-role="page" id="titleScreen"> 
-    <div data-role="header" data-theme="b">
-        <h1 class="header-game-title">Pokemon Battle</h1>
-    </div><!-- header -->
+    <html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" href="secondCSS.css">
+        <link rel="icon" type="image/png" href="http://pokemonrpg.nl/favicon.png">
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    </head>
+    <body>
 
-    <div data-role="content" data-theme="b">
-        <p class="content-text">Are you ready to become the next Pokemon Master?</p>
-        <div class="img-wrapper">
-          <img id="front-page-img" src="http://rs1097.pbsrc.com/albums/g346/applejackoff/pixels/Pokeball_Avatar_by_Kezzi_Rose.gif~c200">
-          <div data-role="controlgroup">
-            <a href="#gameplay" data-role="button">Start</a>
-            <a href="index.html" data-role="button">Instructions</a>
+     <!-- Title Screen page-->
+     <!-- data-role = 'page' is needed whenever you want to make a separate page, all separate pages are contained inside a separate div on index.html instead of a separate file-->
+     <div data-role="page" id="titleScreen"> 
+        <div data-role="header" data-theme="b">
+            <h1>Pokemon Battle</h1>
+        </div><!-- header -->
+
+        <div data-role="content" data-theme="b">
+            <p class="content-text">Are you ready to become the next Pokemon Master?</p>
+            <div class="img-wrapper">
+              <img id="front-page-img" src="http://rs1097.pbsrc.com/albums/g346/applejackoff/pixels/Pokeball_Avatar_by_Kezzi_Rose.gif~c200">
+              <div data-role="controlgroup">
+                <a href="#gameplay" data-role="button">Start</a>
+                <a href="#instructions" data-rel="dialog" data-transition="pop" data-role="button">Instructions</a>
+            </div>
         </div>
-    </div>
-</div><!--content -->
-
-<div data-role="footer" data-theme="b">
-  <h4 class="footer-copyright">© 2017 BSD Academy</h4>
-</div>
-</div><!-- title page -->
-
-<!-- Start of second page -->
-<div data-role="page"  id="gameplay">
-
-    <div data-role="header" data-theme="b">
-        <h1>Battle!</h1>
-        <a href="#titleScreen" data-role="button" data-icon="home">Home</a>
-    </div><!-- /header -->
-
-    <div data-role="content" data-theme="b" class="game-background">   
-        <p id="game-text"><span id="pokemon-name">Squirtle,</span> I choose you! </p>  
-        <div class="pokemon-wrapper">
-
-            <div class="enemy-wrapper">
-                <img src="http://www.pokestadium.com/sprites/xy/bulbasaur.gif" class="sprites" id="bulbasaur">
-                <p>Bulbasaur</p>
-                <progress value="50" max="100"></progress>
-            </div>
-            <div class="user-pokemon-wrapper">
-                <img src="http://www.pokestadium.com/sprites/xy/back/squirtle.gif" class="sprites" id="squirtle">
-                <p>Squirtle</p>
-                <progress value="100" max="100"></progress>
-            </div>
-
-            <div class="attacks-wrapper">
-                <a href="#" data-role="button" data-inline="true">Attack 1</a>
-                <a href="#" data-role="button" data-inline="true" data-theme="b">Attack 2</a>
-            </div>
-
-        </div><!-- /pokemon-wrapper -->
-    </div><!-- /content -->
+    </div><!--content -->
 
     <div data-role="footer" data-theme="b">
-        <h4>© 2017 BSD Academy</h4>
-    </div><!-- /footer -->
-</div><!-- /page -->
+      <h4 class="footer-copyright">© 2017 BSD Academy</h4>
+    </div>
+    </div><!-- title page -->
 
-</body>
-</html>
+
+   <div data-role="page" id="instructions"> 
+        <div data-role="header" data-theme="b">
+            <h1>Instructions</h1>
+        </div><!-- /header -->
+
+        <div data-role="content" data-theme="b">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+    </div><!--content -->
+    </div><!-- /instructions page -->
+
+
+    <!-- Start of second page -->
+    <div data-role="page"  id="gameplay">
+
+        <div data-role="header" data-theme="b">
+            <h1>Battle!</h1>
+            <a href="#titleScreen" data-role="button" data-icon="home">Home</a>
+        </div><!-- /header -->
+
+        <div data-role="content" data-theme="b" class="game-background">   
+            <p id="game-text"><span id="pokemon-name">Squirtle,</span> I choose you! </p>  
+            <div class="pokemon-wrapper">
+
+                <div class="enemy-wrapper">
+                    <img src="http://www.pokestadium.com/sprites/xy/bulbasaur.gif" class="sprites" id="bulbasaur">
+                    <p>Bulbasaur</p>
+                    <progress value="50" max="100"></progress>
+                </div>
+                <div class="user-pokemon-wrapper">
+                    <img src="http://www.pokestadium.com/sprites/xy/back/squirtle.gif" class="sprites" id="squirtle">
+                    <p>Squirtle</p>
+                    <progress value="100" max="100"></progress>
+                </div>
+
+                <div class="attacks-wrapper">
+                    <a href="#" data-role="button" data-inline="true">Attack 1</a>
+                    <a href="#" data-role="button" data-inline="true" data-theme="b">Attack 2</a>
+                </div>
+
+            </div><!-- /pokemon-wrapper -->
+        </div><!-- /content -->
+
+        <div data-role="footer" data-theme="b">
+            <h4>© 2017 BSD Academy</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+    </body>
+    </html>
