@@ -48,9 +48,9 @@ body {
 	font-size: 20px;
 }
 
-/*GAME PLAY PAGE*/
+/*POKEMON GAME PAGE*/
 
-#pokemon-title .ui-header .ui-title {
+h1#pokemon-title{
  white-space: normal !important;
 }
 
