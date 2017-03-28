@@ -16,16 +16,17 @@
         <!-- data-role = 'page' is needed whenever you want to make a separate page, all separate pages are contained inside a separate div on index.html instead of a separate file-->
         <div data-role="page" id="titleScreen"> 
             <div data-role="header" data-theme="b">
-                <h1>Pokemon Battle</h1>
+                <h1>Game Station</h1>
             </div>
 
             <div data-role="content" data-theme="b">
-                <p class="content-text">Are you ready to become the next Pokemon Master?</p>
+                <p class="titleScreen-text">Select a game from below</p>
                 <div class="img-wrapper">
-                    <img id="front-page-img" src="http://rs1097.pbsrc.com/albums/g346/applejackoff/pixels/Pokeball_Avatar_by_Kezzi_Rose.gif~c200">
+                    <img src="https://s-media-cache-ak0.pinimg.com/originals/e1/4a/87/e14a87cd8d8d8a3edf8e3a33f11d953c.gif">
                 </div>
                 <div data-role="controlgroup">
-                    <a href="#pokemon-gameplay" data-role="button">Start</a>
+                    <a href="#pokemon-gameplay" data-role="button">Pokemon Battle</a>
+                    <a href="#" data-role="button">Whack-A-Mole</a>
                     <a href="#instructions" data-rel="dialog" data-transition="pop" data-role="button">Instructions</a>
                 </div>
             </div><!--content -->
@@ -51,7 +52,7 @@
         <!-- POKEMON PAGE -->
         <div data-role="page"  id="pokemon-gameplay">
             <div data-role="header" data-theme="b">
-                <h1>Battle!</h1>
+                <h1>Pokemon Battle</h1>
                 <a href="#titleScreen" data-role="button" data-icon="home">Home</a>
             </div><!-- /header -->
 
