@@ -7,7 +7,7 @@ body {
 	font-family: "Press Start 2P";
 }
 
-/*top header text*/
+/*top header text - set margin to 0 to avoid text being cut off on mobile*/
 .ui-header .ui-title {
 	font-size: 24px;
 	margin: 0;
