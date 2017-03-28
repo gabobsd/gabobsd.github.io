@@ -1,0 +1,41 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Play');
+
+
+body {
+	font-family: "Press Start 2P";
+}
+
+/*top header text*/
+.ui-header .ui-title {
+	font-size: 30px;
+}
+
+/*div containing the img on title screen*/
+.img-wrapper {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*title screen img*/
+.front-page-img {
+	width: 40%;
+}
+
+.content-text {
+	text-align: center;
+}
+
+/*button text on title screen*/
+.ui-controlgroup-controls > a {
+	font-family: "Play";
+	font-size: 20px;
+}
+
+
+/*text in the footer*/
+.footer-copyright {
+	font-size: 10px;
+}

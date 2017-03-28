@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="secondCSS.css">
+    <link rel="icon" type="image/png" href="http://pokemonrpg.nl/favicon.png">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+   <!-- Title Screen page-->
+   <!-- data-role = 'page' is needed whenever you want to make a separate page, all separate pages are contained inside a separate div on index.html instead of a separate file-->
+    <div data-role="page" id="titleScreen"> 
+        <div data-role="header" data-theme="b">
+            <h1 class="header-game-title">Pokemon Battle</h1>
+        </div><!-- header -->
+
+        <div data-role="content" data-theme="b">
+            <p class="content-text">Are you ready to become the next Pokemon Master?</p>
+            <div class="img-wrapper">
+              <img id="front-page-img" src="http://rs1097.pbsrc.com/albums/g346/applejackoff/pixels/Pokeball_Avatar_by_Kezzi_Rose.gif~c200">
+              <div data-role="controlgroup">
+                <a href="#gameplay" data-role="button">Start</a>
+                <a href="index.html" data-role="button">Instructions</a>
+            </div>
+        </div>
+    </div><!--content -->
+
+    <div data-role="footer" data-theme="b">
+      <h4 class="footer-copyright">© 2017 BSD Academy</h4>
+  </div>
+</div><!-- title page -->
+
+<!-- Start of second page -->
+<div data-role="page" id="gameplay">
+
+    <div data-role="header">
+        <h1>Battle!</h1>
+    </div><!-- /header -->
+
+    <div data-role="content">   
+        <p>I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my ID is beeing clicked.</p>      
+        <p><a href="#titleScreen">Back to Home</a></p>   
+    </div><!-- /content -->
+
+    <div data-role="footer">
+        <h4>Page Footer</h4>
+    </div><!-- /footer -->
+</div><!-- /page -->
+
+</body>
+</html>
