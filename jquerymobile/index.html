@@ -9,9 +9,9 @@
     <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
- <!-- Title Screen page-->
- <!-- data-role = 'page' is needed whenever you want to make a separate page, all separate pages are contained inside a separate div on index.html instead of a separate file-->
- <div data-role="page" id="titleScreen"> 
+   <!-- Title Screen page-->
+   <!-- data-role = 'page' is needed whenever you want to make a separate page, all separate pages are contained inside a separate div on index.html instead of a separate file-->
+   <div data-role="page" id="titleScreen"> 
     <div data-role="header" data-theme="b">
         <h1 class="header-game-title">Pokemon Battle</h1>
     </div><!-- header -->
@@ -47,10 +47,12 @@
             <div class="enemy-wrapper">
                 <img src="http://www.pokestadium.com/sprites/xy/bulbasaur.gif" class="sprites" id="bulbasaur">
                 <p>Bulbasaur</p>
+                <progress value="50" max="100"></progress>
             </div>
             <div class="user-pokemon-wrapper">
                 <img src="http://www.pokestadium.com/sprites/xy/back/squirtle.gif" class="sprites" id="squirtle">
                 <p>Squirtle</p>
+                <progress value="100" max="100"></progress>
             </div>
 
         </div><!-- /pokemon-wrapper -->
