@@ -116,7 +116,7 @@ progress {
 .row {
   border: 1px solid red;
   box-sizing: border-box;
-  width: 80%;
+  width: 100%;
   text-align: center;
   margin: 0 auto;
 }
