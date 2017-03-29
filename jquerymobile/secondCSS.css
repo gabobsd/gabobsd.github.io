@@ -112,7 +112,9 @@ progress {
 	width: 125px;
 }
 
-/*Whack-a-Mole*/
+/*WHACK A MOLE*/
+
+/*outer div that contains 3 inner circle divs*/
 .row {
   border: 1px solid red;
   box-sizing: border-box;
@@ -121,6 +123,7 @@ progress {
   margin: 0 auto;
 }
 
+/*circular divs for the holes*/
 .hole {
   width: 25%;
   margin: 2%;
@@ -132,6 +135,7 @@ progress {
   border-radius: 50%;
 }
 
+/*div for scoreboard*/
 .score-wrapper {
 	/*border: 1px solid red;*/
 	margin: 10px auto;
@@ -139,6 +143,7 @@ progress {
 	font-family: "Press Start 2P";
 }
 
+/*span for the points*/
 #points {
 	font-size: 2em;
 }
