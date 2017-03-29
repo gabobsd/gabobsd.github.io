@@ -112,3 +112,25 @@ progress {
 	width: 125px;
 }
 
+/*Whack-a-Mole*/
+.row {
+  border: 1px solid red;
+  box-sizing: border-box;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.hole {
+  width: 25%;
+  margin: 2%;
+  display: inline-block;
+  height: 100px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+  background: black;
+  border-radius: 50%;
+}
+
+
+
