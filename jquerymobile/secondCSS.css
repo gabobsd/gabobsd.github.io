@@ -125,7 +125,7 @@ progress {
   width: 25%;
   margin: 2%;
   display: inline-block;
-  height: 100px;
+  height: 80px;
   border: 1px solid blue;
   box-sizing: border-box;
   background: black;
