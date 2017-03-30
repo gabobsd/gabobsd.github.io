@@ -149,9 +149,10 @@ progress {
 }
 
 /*ROCK, PAPER, SCISSORS*/
-.rps-score-wrapper > h4  {
+.rps-score-wrapper > h5  {
 display: inline;
-margin: 10px;
+margin: 5px;
+font-family: 'Press Start 2P';
 }
 
 .rps-icons-wrapper {
