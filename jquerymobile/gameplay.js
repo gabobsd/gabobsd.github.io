@@ -1,6 +1,3 @@
-// $(document).ready(function() {
-
-
 //ROCK PAPER SCISSORS
 $(document).on("pagecreate","#rockpaperscissors",function(event){
   // alert("pagecreate event fired!")
@@ -32,15 +29,4 @@ $(reset).on("tap",function(){
     $(playerPoints).html(playerScore);
     $(compPoints).html(compScore);
   }); 
-
-
-// rock.addEventListener('click', function(){
-// alert('test');
-// });
-
 });
-
-
-
-
-// });//closing for doc.ready
