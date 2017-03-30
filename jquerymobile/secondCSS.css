@@ -172,3 +172,7 @@ font-family: 'Press Start 2P';
 .rps-icons {
 	width: 100%;
 }
+
+#rps-reset-button {
+	margin-top: 20px;
+}
