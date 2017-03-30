@@ -6,10 +6,7 @@ $(document).on("pagecreate","#rockpaperscissors",function(event){
   let playerPoints = $('#rps-points');
   let compPoints = $('#rps-comp-points');
   let reset = $('#rps-reset-button');
-// let resultText = $('#resultText');
-// const rock = document.getElementById('rock');
-// const paper = document.getElementById('paper');
-// const scissors = document.getElementById('scissors');
+  let resultText = $('#resultText');
 
 //Randomize computer choices
 function getComputerChoice() {
