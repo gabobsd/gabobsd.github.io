@@ -8,6 +8,7 @@
         <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
         <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
         <script src="gameplay.js"></script>
+        <script src="jquery.mobile.subpage.js"></script>
       <!--   <script src="hammer.min.js"></script> -->
     </head>
     <body>
@@ -26,9 +27,10 @@
                     <img id="test" src="https://s-media-cache-ak0.pinimg.com/originals/e1/4a/87/e14a87cd8d8d8a3edf8e3a33f11d953c.gif">
                 </div>
                 <div data-role="controlgroup">
-                    <a href="#pokemon-gameplay" data-role="button">Pokemon Battle</a>
+                    <a href="#pokemon-gameplay" data-transition="slideup" data-role="button">Pokemon Battle</a>
                     <a href="#whackamole" data-role="button">Whack-A-Mole</a>
-                    <a href="#rockpaperscissors" data-role="button" rel="external" data-ajax="false">Rock, Paper, Scissors</a>
+                    <!-- rel="external" data-ajax="false" -->
+                    <a href="#rockpaperscissors" data-transition="slidedown" data-role="button" >Rock, Paper, Scissors</a>
                     <a href="#instructions" data-rel="dialog" data-transition="pop" data-role="button">Instructions</a>
                 </div>
             </div><!--content -->
@@ -83,7 +85,7 @@
             <div data-role="content" data-theme="b">
                 
                 <div class="score-wrapper">
-                    <h2>Score:</h2>
+                    <h3>Score:</h3>
                     <span id="points">0</span>
                 </div>
 
@@ -104,6 +106,8 @@
                     <div class="hole"></div>
                     <div class="hole"></div>
                 </div>
+
+                <button>Reset</button>
             </div><!--content -->
 
             <div data-role="footer" data-theme="b">
@@ -111,11 +115,12 @@
             </div>
         </div><!-- end Whack-a-Mole -->
 
-         <!-- ROCK, PAPER, SCISSORS PAGE-->
+        <!-- ROCK, PAPER, SCISSORS PAGE-->
         <div data-role="page" id="rockpaperscissors"> 
+        <!-- <div data-role="subpage"> -->
             <div data-role="header" data-theme="b">
-                 <a href="#titleScreen" class="ui-btn ui-btn-left ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
-                 <a href="#rockpaperscissors-instructions" class="ui-btn ui-corner-all ui-shadow ui-icon-info ui-btn-icon-left ui-btn-icon-notext" data-rel="dialog" data-transition="pop">Instructions</a>
+                 <a href="#titleScreen" class="ui-btn ui-btn-left ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left ui-btn-icon-notext" data-transition="slide" data-rel="back">Home</a>
+                 <a href="#rockpaperscissors-instructions" class="ui-btn ui-corner-all ui-shadow ui-icon-info ui-btn-icon-left ui-btn-icon-notext" data-rel="dialog" data-transition="slidedown">Instructions</a>
                 <h1>Rock, Paper, Scissors</h1>
             </div><!-- /header -->
 
@@ -147,6 +152,7 @@
             <div data-role="footer" data-theme="b">
                 <h4 class="footer-copyright">© 2017 BSD Academy</h4>
             </div>
+        </div>
         </div><!-- /rock, paper, scissors page -->
 
 

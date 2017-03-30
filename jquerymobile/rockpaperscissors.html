@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" href="secondCSS.css">
+        <link rel="icon" type="image/png" href="http://pokemonrpg.nl/favicon.png">
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <script src="gameplay.js"></script>
+      <!--   <script src="hammer.min.js"></script> -->
+    </head>
+    <body>
+         <!-- ROCK, PAPER, SCISSORS PAGE-->
+        <div data-role="page" id="rockpaperscissors"> 
+            <div data-role="header" data-theme="b">
+                 <a href= "index.html" class="ui-btn ui-btn-left ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left ui-btn-icon-notext" rel="external">Home</a>
+                 <a href="#rockpaperscissors-instructions" class="ui-btn ui-corner-all ui-shadow ui-icon-info ui-btn-icon-left ui-btn-icon-notext" data-rel="dialog" data-transition="slidedown">Instructions</a>
+                <h1>Rock, Paper, Scissors</h1>
+            </div><!-- /header -->
+
+            <div data-role="content" data-theme="b">
+                 <div class="rps-score-wrapper">
+                    <h5>Player: <span id="rps-points">0</span></h5>
+                    <h5>Computer: <span id="rps-comp-points">0</span></h5>
+                </div>
+
+                <h3 id="resultText">You played Paper, Computer played Scissors. You lose!</h3>
+
+                <div class="rps-icons-wrapper">
+                    <div class="rps-icons-bg">
+                        <img id="rock" class="rps-icons" src="http://megaicons.net/static/img/icons_sizes/8/178/512/rock-paper-scissors-rock-icon.png">
+                    </div>
+
+                    <div class="rps-icons-bg">
+                        <img id="paper" class="rps-icons" src="http://icons.veryicon.com/ico/System/Icons8%20Metro%20Style/Rock%20Paper%20Scissors%20Paper.ico">
+                    </div>
+
+                    <div class="rps-icons-bg">
+                        <img id="scissors" class="rps-icons" src="http://megaicons.net/static/img/icons_sizes/8/178/256/rock-paper-scissors-scissors-icon.png">
+                    </div>
+                </div>
+
+                <button id="rps-reset-button">Reset</button>
+            </div><!--content -->
+
+            <div data-role="footer" data-theme="b">
+                <h4 class="footer-copyright">© 2017 BSD Academy</h4>
+            </div>
+        </div><!-- /rock, paper, scissors page -->
+
+         <!-- INSTRUCTIONS DIALOG FOR ROCK PAPER SCISSORS -->
+        <div data-role="page" id="rockpaperscissors-instructions"> 
+            <div data-role="header" data-theme="b">
+                <h1 id="instructions-title">Instructions</h1>
+            </div><!-- /header -->
+
+            <div data-role="content" data-theme="b">
+                <h3>Rock, Paper, Scissors</h3>
+                <p>You know the drill - rock beats scissors, scissors beats paper, paper beats rock. Earn a point for every round you score. No points are earned for ties or Computer wins.</p>
+            </div><!--content -->
+        </div><!-- /RPSinstructions page -->
+
+
+    </body>
+</html>

@@ -8,6 +8,7 @@ $(document).on("pagecreate","#rockpaperscissors",function(event){
   let reset = $('#rps-reset-button');
   let resultText = $('#resultText');
 
+
 //Randomize computer choices
 function getComputerChoice() {
 	let choices = ['rock', 'paper', 'scissors'];
