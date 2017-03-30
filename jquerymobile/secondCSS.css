@@ -148,5 +148,26 @@ progress {
 	font-size: 2em;
 }
 
+/*ROCK, PAPER, SCISSORS*/
+.rps-score-wrapper > h4  {
+display: inline;
+margin: 10px;
+}
 
+.rps-icons-wrapper {
+ text-align: center;
+ margin-top: 20px;
+}
 
+.rps-icons-bg {
+	background: #fff;
+	display: inline-block;
+	border-radius: 50%;
+	width: 12%;
+	padding: 17px;
+	margin: 0 20px;
+}
+
+.rps-icons {
+	width: 100%;
+}
