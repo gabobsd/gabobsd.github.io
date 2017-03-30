@@ -48,7 +48,6 @@ $('#scissors').on("tap",function(){
   }); 
 
 $(reset).on("tap",function(){
-    alert('test');
     playerScore = 0;
     compScore = 0;
     $(playerPoints).text(playerScore);
