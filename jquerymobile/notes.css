@@ -1,0 +1,14 @@
+JQuery Mobile Tips
+
+/*If header/footer titles are being cut off */
+
+{
+  white-space: normal;
+}
+
+/*Add this class to the <a> tag for buttons with icon only*/
+ui-btn-icon-notext
+
+/*For page and dialog transitions, add this to the <a href> tags
+see here for transitions: http://demos.jquerymobile.com/1.1.1/docs/pages/page-transitions.html*/
+data-transition="slideup"

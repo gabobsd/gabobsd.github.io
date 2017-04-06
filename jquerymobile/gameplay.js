@@ -1,3 +1,18 @@
+//POKEMON BATTLE
+$(document).on("pagecreate","#pokemon-gameplay",function(event){
+
+//location.reload() refreshes a page
+  $('.resetPokemon').click(function() {
+    location.reload();
+  });
+  
+
+
+
+
+});
+
+
 //ROCK PAPER SCISSORS
 $(document).on("pagecreate","#rockpaperscissors",function(event){
   // alert("pagecreate event fired!")
