@@ -82,6 +82,7 @@
             <div data-role="header" data-theme="b">
                 <h1>Whack-a-Mole</h1>
                 <a href="#titleScreen" class="ui-btn ui-btn-left ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
+                 <a href="#mole-instructions" class="ui-btn ui-corner-all ui-shadow ui-icon-info ui-btn-icon-left ui-btn-icon-notext" data-rel="dialog" data-transition="slidedown">Instructions</a>
             </div>
 
             <div data-role="content" data-theme="b">
@@ -119,12 +120,11 @@
 
         <!-- ROCK, PAPER, SCISSORS PAGE-->
         <div data-role="page" id="rockpaperscissors"> 
-        <!-- <div data-role="subpage"> -->
             <div data-role="header" data-theme="b">
                  <a href="#titleScreen" class="ui-btn ui-btn-left ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left ui-btn-icon-notext" data-transition="slide" data-rel="back">Home</a>
                  <a href="#rockpaperscissors-instructions" class="ui-btn ui-corner-all ui-shadow ui-icon-info ui-btn-icon-left ui-btn-icon-notext" data-rel="dialog" data-transition="slidedown">Instructions</a>
                 <h1>Rock, Paper, Scissors</h1>
-            </div><!-- /header -->
+            </div>
 
             <div data-role="content" data-theme="b">
                  <div class="rps-score-wrapper">
@@ -158,7 +158,7 @@
         </div><!-- /rock, paper, scissors page -->
 
 
-        <!-- INSTRUCTIONS DIALOG -->
+        <!-- INSTRUCTIONS DIALOG ON TITLE SCREEN -->
         <div data-role="page" id="instructions"> 
             <div data-role="header" data-theme="b">
                 <h1 id="instructions-title">Instructions</h1>
@@ -170,7 +170,10 @@
 
                 <h3>Whack-A-Mole</h3>
                 <p>Whack as many moles as you can before the timer runs out! Different coloured moles are worth different points.</p>
-            </div><!--content -->
+
+                <h3>Rock, Paper, Scissors</h3>
+                <p>Rock beats Scissors, Scissors beats Paper, Paper beats Rock!</p>
+            </div>
         </div><!-- /instructions page -->
 
         <!-- INSTRUCTIONS DIALOG FOR ROCK PAPER SCISSORS -->
@@ -182,26 +185,20 @@
             <div data-role="content" data-theme="b">
                 <h3>Rock, Paper, Scissors</h3>
                 <p>You know the drill - rock beats scissors, scissors beats paper, paper beats rock. Earn a point for every round you score. No points are earned for ties or Computer wins.</p>
-            </div><!--content -->
+            </div>
         </div><!-- /RPSinstructions page -->
 
-
-        <!-- HAMMER.JS PAGE-->
-        <div data-role="page" id="hammerjs"> 
+          <!-- INSTRUCTIONS DIALOG FOR WHACK A MOLE -->
+        <div data-role="page" id="mole-instructions"> 
             <div data-role="header" data-theme="b">
-                 <a href="#titleScreen" class="ui-btn ui-btn-left ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
-                <h1 id="instructions-title">hammer.js </h1>
+                <h1 id="instructions-title">Instructions</h1>
             </div><!-- /header -->
 
             <div data-role="content" data-theme="b">
-                <p>Hammer JS content</p>
-            </div><!--content -->
-
-            <div data-role="footer" data-theme="b">
-                <h4 class="footer-copyright">© 2017 BSD Academy</h4>
+                <h3>Whack-a-Mole</h3>
+                <p>Tap as many moles as you can to earn points before the timer runs out!</p>
             </div>
-        </div><!-- /hammer.js page -->
-
+        </div>
 
     </body>
 </html>
