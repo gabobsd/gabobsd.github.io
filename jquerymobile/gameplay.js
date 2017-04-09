@@ -5,12 +5,27 @@ $(document).on("pagecreate","#pokemon-gameplay",function(event){
   $('.resetPokemon').click(function() {
     location.reload();
   });
-  
+});
 
+//WHACK A MOLE
+$(document).on("pagecreate","#whackamole",function(event){
+let score = 0;
+let points = document.getElementById('points');
+const reset = document.getElementById('mole-reset');
 
+$('.mole').on("tap",function(){
+	score++;
+	points.innerHTML = score;
+});
 
+$(reset).on("tap",function(){
+	score = 0;
+	points.innerHTML = score;
+});
 
 });
+	
+
 
 
 //ROCK PAPER SCISSORS
