@@ -116,7 +116,7 @@ progress {
 
 /*outer div that contains 3 inner circle divs*/
 .row {
-  border: 1px solid red;
+/*  border: 1px solid red;*/
   box-sizing: border-box;
   width: 100%;
   text-align: center;
@@ -129,11 +129,31 @@ progress {
   margin: 2%;
   display: inline-block;
   height: 80px;
-  border: 1px solid blue;
+  border: 1px solid green;
   box-sizing: border-box;
   background: black;
   border-radius: 50%;
+   overflow: hidden;
 }
+
+/*the mole pics*/
+.mole {
+ width: 100%;
+ position: relative;
+ top: 70%;
+}
+
+/*mole animation*/
+.animate-moles {
+  animation: popup 3s infinite;
+}
+
+@keyframes popup {
+  50%{
+    top: 0%;
+  }
+}
+
 
 /*div for scoreboard*/
 .score-wrapper {
