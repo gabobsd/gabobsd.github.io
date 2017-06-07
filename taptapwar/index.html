@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P|VT323" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Start of first page -->
+    <div data-role="page" id="home" data-theme='b'>
+
+        <div data-role="header">
+            <h1>Tap Tap War</h1>
+        </div>
+
+        <div role="main" class="ui-content">
+            <h5>Welcome to Tap Tap War, the ultimate button-mashing game! Grab a friend and see who can hit their button the fastest!</h5>
+          	<img src="http://bestanimations.com/Humans/Hands/hand-gif-animation-5.gif" id='homeImg'>
+          	<a href="#game" class='ui-btn'>Play</a>
+          	<a href="#instructions" class='ui-btn'>Instructions</a>
+        </div>
+
+        <div data-role="footer">
+            <h4>Page Footer</h4>
+        </div>
+    </div><!-- /page -->
+
+    <!-- Game page -->
+    <div data-role="page" id="game" data-theme='b'>
+
+        <div data-role="header">
+            <h1>Play!</h1>
+          	<a href="#home" class='ui-btn'>Home</a>
+        </div>
+  
+        <div role="main" class="ui-content">
+          	<button id='player1button' class="playerButton rotateText">Player 1</button>
+          	<progress value="100" max="100" id='player1Bar'></progress>
+            <h4 id='player1HPText' class='rotateText'>100</h4>
+          	<h3 class='rotateText'>Player 1 HP</h3>
+          	
+          	<h3>Player 2 HP</h3>
+          	<progress value="100" max="100" id='player2Bar'></progress>
+          	<h4 id='player2HPText'>100</h4>
+			<button id='player2button' class="playerButton">Player 2</button>
+        </div>
+
+        <div data-role="footer">
+            <h4>Page Footer</h4>
+        </div>
+    </div> <!-- /page -->
+  
+  	 <!-- Instructions page -->
+    <div data-role="page" id="instructions" data-theme='b'>
+
+        <div data-role="header">
+            <h1>Instructions</h1>
+        </div>
+  
+        <div role="main" class="ui-content">
+            <h3>How to play:</h3>
+          	<p>This is a 2-player game to see who can defeat their opponent first! Tap your button to lower your opponent's hit points - the first person to lower their opponent's HP to zero wins!</p>
+            <a href="#home" class='ui-btn'>Back to Home</a>
+        </div>
+
+        <div data-role="footer">
+            <h4>Page Footer</h4>
+        </div>
+    </div> <!-- /page -->
+
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</body>
+
+</html>

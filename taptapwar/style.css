@@ -1,0 +1,58 @@
+body {
+  font-family: 'Press Start 2P' !important;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+progress {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+}
+
+#homeImg {
+  width: 50%;
+  border-radius: 50%;
+  margin-bottom: 5%;
+}
+
+#home h5 {
+  text-align: center;
+}
+
+a {
+  font-family: 'Press Start 2P' !important;
+}
+
+.playerButton {
+  width: 100% !important;
+  padding-top: 15% !important;
+  padding-bottom: 15% !important;
+  font-family: 'Press Start 2P' !important;
+}
+
+#player1button {
+ background-color: #e60000;
+}
+
+#player2button {
+ background-color: #4da6ff;
+}
+
+progress {
+  
+}
+
+
+
+.rotateText {
+transform: rotate(-180deg);
+-webkit-transform: rotate(-180deg);
+-moz-transform: rotate(-180deg);
+-ms-transform: rotate(-180deg);
+-o-transform: rotate(-180deg);
+}
