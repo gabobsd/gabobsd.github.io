@@ -3,10 +3,9 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <script type="text/javascript" src="script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-  	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P|VT323" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P|VT323|Luckiest+Guy|Ubuntu" rel="stylesheet">
 </head>
 
 <body>
@@ -25,7 +24,7 @@
         </div>
 
         <div data-role="footer">
-            <h4>Page Footer</h4>
+            <h4>Copyright © BSD Academy 2017</h4>
         </div>
     </div><!-- /page -->
 
@@ -35,22 +34,23 @@
         <div data-role="header">
             <h1>Play!</h1>
           	<a href="#home" class='ui-btn'>Home</a>
+          	<button id='resetButton'>Reset</button>
         </div>
   
         <div role="main" class="ui-content">
           	<button id='player1button' class="playerButton rotateText">Player 1</button>
           	<progress value="100" max="100" id='player1Bar'></progress>
             <h4 id='player1HPText' class='rotateText'>100</h4>
-          	<h3 class='rotateText'>Player 1 HP</h3>
+          	<h3 class='rotateText' id='player1Status'>Player 1 HP</h3>
           	
-          	<h3>Player 2 HP</h3>
+          	<h3 id='player2Status'>Player 2 HP</h3>
           	<progress value="100" max="100" id='player2Bar'></progress>
           	<h4 id='player2HPText'>100</h4>
 			<button id='player2button' class="playerButton">Player 2</button>
         </div>
 
         <div data-role="footer">
-            <h4>Page Footer</h4>
+            <h4>Copyright © BSD Academy 2017</h4>
         </div>
     </div> <!-- /page -->
   
@@ -68,12 +68,13 @@
         </div>
 
         <div data-role="footer">
-            <h4>Page Footer</h4>
+            <h4>Copyright © BSD Academy 2017</h4>
         </div>
     </div> <!-- /page -->
 
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  	<script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
