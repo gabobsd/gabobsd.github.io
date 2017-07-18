@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Titillium+Web" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Home page -->
+    <div data-role="page" id="home"  >
+        <div data-role="header">
+            <h1>BSD Recipe App</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <h2 class='page-headings'>Welcome to my Recipe App!</h2>
+            <h3 class='page-headings'>Click the category to check out different recipes:</h3>
+
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#mains" data-transition='slide'>
+                      	<img src="http://bsdacademysandbox.com/curriculum/wp-content/uploads/2017/07/mains.jpg" alt="" />
+                        <h2>Mains</h2>
+                        <p>Explore delicious mains</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#drinks" data-transition='slide'>                     
+                      <img src="http://bsdacademysandbox.com/curriculum/wp-content/uploads/2017/07/beverages.jpg" alt="" />
+                        <h2>Beverages</h2>
+                        <p>Healthy smoothies and juices</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#desserts" data-transition='slide'>
+                      <img src="http://bsdacademysandbox.com/curriculum/wp-content/uploads/2017/07/cake.jpg" alt="" />
+                        <h2>Desserts</h2>
+                        <p>Scrumptious dessert recipes</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div data-role="footer">
+            <h4>Copyright © 2017 - BSD</h4>
+        </div>
+    </div>
+    <!-- end of Home -->
+<!-- 	 -->
+    <!-- Mains page -->
+    <div data-role="page" id="mains">
+
+        <div data-role="header">
+            <h1>Mains Recipes</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <h2>Mains:</h2>
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pasta" data-transition='slide'>
+                        <img src="http://bsdacademysandbox.com/curriculum/wp-content/uploads/2017/07/pasta.jpg">
+                        <h2>Pasta</h2>
+                        <p>Explore available pasta dishes</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="http://bsdacademysandbox.com/curriculum/wp-content/uploads/2017/07/burgers.jpg">
+                        <h2>Burgers</h2>
+                        <p>Explore veggie burger recipes</p>
+                    </a>
+                </li>
+            </ul>
+            <a href="#home" class='ui-btn' data-transition='pop'>Back to Home</a>
+        </div>
+        <div data-role="footer">
+            <h4>Page Footer</h4>
+        </div>
+    </div>
+    <!--end of Mains page-->
+
+    <!--Pasta page-->
+    <div data-role="page" id='pasta'>
+        <div data-role="header">
+            <h1>Pasta</h1>
+        </div>
+
+        <div role="main" class="ui-content">
+            <h3>Pasta recipes:</h3>
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#basilpasta" data-transition='slide'>
+                        <img src="http://www.ndtv.com/cooks/images/Pasta-Basilico_med.jpg">
+                        <h2>Pasta with Tomato and Basil</h2>
+                        <p>Traditional pasta with tomato sauce and basil</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="http://cdn2.tmbi.com/TOH/Images/Photos/37/1200x1200/Bistro-Mac---Cheese_exps47665_SD143203C10_24_5bC_RMS.jpg">
+                        <h2>Mac and Cheese</h2>
+                        <p>Learn to make healthy Mac and Cheese!</p>
+                    </a>
+                </li>
+            </ul>
+            <a href="#mains" class='ui-btn'>Back to Mains</a>
+        </div>
+
+        <div data-role="footer">
+            <h4>Page Footer</h4>
+        </div>
+    </div>
+    <!-- end of Pasta page-->
+
+	<!--Pasta with Tomato and Basil page-->
+    <div data-role="page" id='basilpasta'>
+        <div data-role="header">
+            <h1>Pasta with Tomato and Basil</h1>
+          	<a href="#pasta" class='ui-btn ui-icon-carat-l ui-btn-icon-left' data-transition='slidefade'>Back</a>
+        </div>
+
+        <div role="main" class="ui-content">
+            <p>Traditional yet simple pasta dish with tomato sauce and basil.</p>
+          
+          	<img src="https://ricettesenzaglutine.files.wordpress.com/2015/08/pasta-di-teff-con-pomodi.jpg" id='tomatobasilpasta' />
+            <h4>Serves: 4</h4>
+          	<h4>Ingredients:</h4>
+            <ul>
+              <li>1 pack pasta</li>
+              <li>30ml olive oil</li>
+              <li>1kg fresh tomatoes</li>
+              <li>handful of fresh basil</li>
+              <li>3-5 cloves minced garlic</li>
+              <li>tomato-based pasta sauce</li>
+              <li>red chili flakes (optional)</li>
+              <li>salt and pepper to taste</li>
+            </ul>
+          
+          	<h4>Instructions:</h4>
+            <ol>
+              <li>Chop and quarter the tomatoes</li>
+              <li>Heat oil and add garlic and add chili</li>
+              <li>Add tomatoes and stir until tomatoes thicken</li>
+              <li>Add basil, and salt and pepper to taste</li>
+              <li>When sauce is cooked, remove from heat</li>
+              <li>Cook the pasta until al dente</li>
+              <li>Mix the sauce into the pasta. Enjoy!</li>
+            </ol>
+        </div>
+
+        <div data-role="footer">
+            <h4>Page Footer</h4>
+        </div>
+    </div><!-- end of Pasta Con Pomodoro E Basilico -->
+
+
+    <!-- Drinks page -->
+    <div data-role="page" id="drinks">
+
+        <div data-role="header">
+            <h1>Beverage Recipes</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <h2>Drinks:</h2>
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#">
+                        <img src="https://lovingitvegan.com/wp-content/uploads/2016/05/Matcha-Green-Smoothie-4.jpg">
+                        <h2>Smoothies</h2>
+                        <p>Healthy smoothie recipes</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://blog.dacadoo.com/wp-content/uploads/2013/01/stockvault-orange-juice.jpeg">
+                        <h2>Juice</h2>
+                        <p>Learn to make freshly pressed juices!</p>
+                    </a>
+                </li>
+            </ul>
+            <a href="#home" class='ui-btn' data-transition='pop'>Back to Home</a>
+        </div>
+        <div data-role="footer">
+            <h4>BSD Recipe App</h4>
+        </div>
+    </div>
+    <!--end of drinks page -->
+
+    <!-- desserts page -->
+    <div data-role="page" id="desserts">
+
+        <div data-role="header">
+            <h1>Dessert Recipes</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <h2>Desserts:</h2>
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#">
+                        <img src="http://images.media-allrecipes.com/userphotos/250x250/00/69/35/693521.jpg">
+                        <h2>Cookies</h2>
+                        <p>Explore cookie recipes</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="http://delishcupcakes.co.nz/wp-content/uploads/2015/10/kidsxookielmo-300x300.jpg">
+                        <h2>Cupcakes</h2>
+                        <p>Explore creative cupcake recipes</p>
+                    </a>
+                </li>
+            </ul>
+            <a href="#home" class='ui-btn' data-transition='pop'>Back to Home</a>
+        </div>
+      
+        <div data-role="footer">
+            <h4>Page Footer</h4>
+        </div>
+    </div><!--end of Desserts -->
+
+</body>
+</html>
+
+<!--  
+List of things to change: 
+- all header and footer text
+- all recipe images
+- font family
+- adding buttons
+-->
